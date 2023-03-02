@@ -1,0 +1,266 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}
+html,body {
+    margin:0;
+    padding:0;
+    background-color: #7679e0;
+}
+
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar-styling{
+    display: flex;
+    justify-content: space-between;
+    row-gap: 1rem;
+    background-color:  #3535b5;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 1.5rem;
+    z-index: 99;
+}
+
+.list-items{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.list-names{
+    padding-right: 30px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+
+@media (max-width: 800px) {
+    .navbar-styling {
+        flex-direction: column;
+    }
+}
+
+.nav-title{
+    display: inline-block;
+    /* padding-left: 100px; */
+}
+
+.nav-title:hover{
+    color: aliceblue;
+}
+
+.logo{
+    letter-spacing: 1px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+
+
+
+ul li:hover{
+    color: aliceblue;
+}
+
+.main-section{
+    display: flex;
+    width: 100%;
+    padding-top: 20px;
+    background-color: #7679e0;
+}
+
+@media (max-width: 800px)  {
+    .main-section{
+        flex-direction: column;
+    }
+}
+
+.content{
+    display: inline-block;
+    position: absolute;
+    padding-top: 260px;
+    padding-left: 190px;
+}
+
+h4{
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+}
+
+h1{
+    font-size: 60px;
+    letter-spacing: 1px;
+    padding-bottom: 1px;
+}
+
+h3{
+    font-size: 21px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+
+}
+
+.btn{
+    background-color: cornflowerblue;
+    width: 120px;
+    height: 45px;
+    font-weight: bold;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn:hover{
+    background-color: #3535b5;
+    color: black
+}
+
+.img-div{
+    display: inline-block;
+    padding-left: 800px;
+    padding-top: 150px; 
+}
+
+.about{
+    margin-left: 180px;
+   margin-top: 18%;
+}
+
+.main{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 1130px;
+    max-width: 95%;
+}
+
+.About-me-img{
+    height: 231px;
+    width: 289px;
+}
+
+.about-text{
+    margin-left: 135px;
+}
+
+.about-text h2{
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p{
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    font-weight: 600;
+}
+
+.about-text-btn{
+    background-color: cornflowerblue;
+    width: 120px;
+    height: 45px;
+    font-weight: bold;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 15px; 
+}
+
+.about-text-btn:hover{
+    background-color: #3535b5;
+    color: black
+}
+
+.service{
+    margin-top: 15%;
+}
+
+.title h2 {
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    padding-left: 250px;
+}
+
+.card{
+    border: 2px solid;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+    margin: 15px;
+    text-align: center;
+    padding-top: 110px;
+    background-color: #3535b5;
+}
+
+.card h2{
+    padding-bottom: 15px;
+}
+
+.checked{
+    font-size: 40px;
+    color: orange;
+}
+
+.contact-me {
+    width: 100%;
+    height: 290px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-me p {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.btn-two{
+    background-color: cornflowerblue;
+    width: 120px;
+    height: 45px;
+    font-weight: bold;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn-two:hover{
+    background-color: #3535b5;
+    color: black
+}
+
+@media (max-widtg: 800px) {
+    .flex-container{
+        flex-direction: column;
+
+    }
+}
+
