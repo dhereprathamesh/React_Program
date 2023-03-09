@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./game.css">
+    <title>Guess Number</title>
+</head>
+<body>
+    <div class="game-box">
+        <h1>
+            Guess The Number
+        </h1>
+        <p class="paratxt">
+            Guess the number between 1 to 100
+        </p>
+        <!-- <input type="onclick"> -->
+        <button type="submit" onclick="guessTheNumber()" id="play-btn" class="play-it-btn"> Play it!</button>
+        <div class="guess-section" id="form1">
+            <div class="guess-form-section">
+                <label for="" class="guess-form-lable">Guess a number!!</label>
+                <input type="text" placeholder="Enter a number" class="guess-form-input-field" id="guess-input">
+                <button class="submit-guess-btn" onclick="checkGuessNumber()">Submit Guess</button>
+            </div>
+            <div class="chance-field" id="chances" >
+                <h1>Your Chances:- <span id="chances-value"></span></h1>
+            </div>
+            <!-- <form action="" class="guess-form-section" id="guess-form"> -->
+            <!-- </form> -->
+        </div>
+    </div>
+    <script src="./game.js"></script>
+</body>
+</html>

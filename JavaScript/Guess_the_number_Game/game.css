@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+}
+.game-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid transparent;
+    margin: 95px 500px;
+    height: 505px;
+    font-size: x-large;
+    color: #b3aa69;
+    background-color: #191919;
+}
+
+.paratxt {
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.play-it-btn{
+        font-size: 18px;
+        background-color: #6e671a;
+        color: white;
+        text-decoration: none;
+        border: 2px solid transparent;
+        font-weight: bold;
+        margin-top: 10px;
+        padding: 13px 30px;
+        border-radius: 30px;
+        cursor: pointer;
+        width: 28%;
+}
+
+.guess-section{
+    display: none;
+}
+
+.guess-form-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.guess-form-lable{
+        margin: 20px;
+        font-size: 35px;
+}
+
+.guess-form-input-field{
+    height: 45px;
+    width: 80%;
+    padding: 0px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.submit-guess-btn{
+    letter-spacing: 0.5px;
+    background-color: #6e671a;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 20px;
+    padding: 13px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 55%;
+}
+
+.chance-field{
+    padding-right: 30px;
+    display: none;
+}
