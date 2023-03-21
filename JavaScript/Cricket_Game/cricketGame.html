@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./cricketGame.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cricket-title">
+        <h1>Cricket Game</h1>
+    </div>
+   
+    <div class="score-section">     
+        <div class="total-score-section">Total Score</div>
+        <div class="main-section" id="main-section-data">
+            <form>
+            <div class="teams-section">
+                <div class="team1-section">
+                    <h1>team1</h1>
+                    <div class="team1-input-div">
+                        <div>
+
+                            <label for="" class="player1-label-txt" id="team1-player1-lable">Enter A Player1 Name</label>
+                            <input type="text" class="player1-input-field" placeholder="Enter your name" id="team1-player1-data">
+                            <span id="team1-validation-Error1" class="errorMsg">Please Enter a Value</span>
+                        </div>
+                        <div class="players-field-div">
+
+                            <label for="" class="player1-label-txt" id="team1-player2-lable">Enter A Player2 Name</label>
+                            <input type="text" class="player1-input-field" placeholder="Enter your name" id="team1-player2-data">
+                            <span id="team1-validation-Error2" class="errorMsg">Please Enter a Value</span>
+                        </div>
+
+                        <div class="players-field-div">
+
+                            <label for="" class="player1-label-txt"id="team1-player3-lable">Enter A Player3 Name</label>
+                            <input type="text" class="player1-input-field" placeholder="Enter your name" id="team1-player3-data">
+                            <span id="team1-validation-Error3" class="errorMsg">Please Enter a Value</span>
+                        </div>
+
+                        <div class="players-field-div">
+
+                            <label for="" class="player1-label-txt" id="team1-player4-lable">Enter A Player4 Name</label>
+                            <input type="text" class="player1-input-field" placeholder="Enter your name" id="team1-player4-data">
+                            <span id="team1-validation-Error4" class="errorMsg">Please Enter a Value</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="team2-section">
+                    <h1>team2</h1>
+                    <div class="team2-input-div">
+                        <div>
+
+                            <label for="" class="player2-label-txt" id="team2-player1-label">Enter A Player1 Name</label>
+                            <input type="text" class="player2-input-field" placeholder="Enter your name" id="team2-player1-data">
+                            <span id="team2-validation-Error1" class="errorMsg">Please Enter a Value</span>
+                        </div>
+
+                        <div class="players-field-div">
+
+                            <label for="" class="player2-label-txt" id="team2-player2-label">Enter A Player2 Name</label>
+                            <input type="text" class="player2-input-field" placeholder="Enter your name" id="team2-player2-data">
+                            <span id="team2-validation-Error2" class="errorMsg">Please Enter a Value</span>
+                        </div>
+
+                        <div class="players-field-div">
+
+                            <label for="" class="player2-label-txt" id="team2-player3-label">Enter A Player3 Name</label>
+                            <input type="text" class="player2-input-field" placeholder="Enter your name" id="team2-player3-data">
+                            <span id="team2-validation-Error3" class="errorMsg">Please Enter a Value</span>
+                        </div>
+
+                        <div class="players-field-div">
+
+                            <label for="" class="player2-label-txt" id="team2-player4-label">Enter A Player4 Name</label>
+                            <input type="text" class="player2-input-field" placeholder="Enter your name" id="team2-player4-data">
+                            <span id="team2-validation-Error4" class="errorMsg">Please Enter a Value</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="start-game-div">
+                <button class="start-game-btn" type="button" onclick="gettingAllTeamsName()">Start Game</button>
+            </div>
+            </form>
+
+            <div class="pop-up-div" id="pop-up-screen">
+                <h1>
+                    <i class="fa-sharp fa-solid fa-circle-check pop-up-icon "></i>
+                </h1>
+                <div class="pop-up-success">
+                    Success!
+                </div>
+                <div class="pop-up-txt">
+                    Teams have been Created 
+                </div>
+                <div>
+                    <button class="pop-up-ok-btn" onclick="popUpClose()">Ok</button>
+                </div>
+            </div>
+            
+            <!-- <div class="team1-section">
+                <h1>team1</h1>
+                <div class="team1-input-div">
+                    <label for="" class="player1-label-txt">Enter A Player1 Name</label>
+                    <input type="text" class="player1-input-field" placeholder="Enter your name">
+                </div>
+            </div>
+            <div class="team2-section">
+                <h1>team2</h1>
+                <div class="team2-input-div">
+                    <label for="" class="player2-label-txt">Enter A Player2 Name</label>
+                    <input type="text" class="player2-input-field" placeholder="Enter your name">
+                </div>
+            </div> -->
+        </div>
+        <div class="wicket-section">Wickets</div>
+    </div>
+    <script src="./cricketGame.js"></script>
+</body>
+</html>
